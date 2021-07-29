@@ -24,6 +24,14 @@ export default function Docs() {
         <div className="pl-2">
           <div className="flex mt-4 mb-3">
             <FolderIcon />
+            <span className="pl-2">pages</span>
+          </div>
+          <div className="flex mt-4 mb-3">
+            <FolderIcon />
+            <span className="pl-2">public</span>
+          </div>
+          <div className="flex mt-4 mb-3">
+            <FolderIcon />
             <span className="pl-2">src</span>
           </div>
           <div className="pl-5 flex mb-3">
@@ -85,14 +93,6 @@ export default function Docs() {
           <div className="pl-11 flex mb-3">
             <FileIcon />
             <span className="pl-3">style.module.css</span>
-          </div>
-          <div className="pl-3 flex mb-3">
-            <FolderIcon />
-            <span className="pl-2">pages</span>
-          </div>
-          <div className="pl-3 flex mb-3">
-            <JsIcon />
-            <span className="pl-2">app.js</span>
           </div>
         </div>
       </section>
@@ -231,8 +231,8 @@ export default function Docs() {
           <div className="flex flex-wrap md:flex-nowrap mt-8">
             <JsIcon /> <strong className="px-1">main.js :</strong>This
             <span className="px-1 font-medium">Main</span>
-            component is the content of the route/view. it will render if the
-            route in not<span className="px-1 font-medium">OFFICE</span>
+            component is the content of the page. it will render if the route in
+            not<span className="px-1 font-medium">OFFICE</span>
           </div>
         </div>
         <div>
@@ -258,8 +258,8 @@ export default function Docs() {
             <span className="px-1 font-medium">pages</span>directory
           </li>
           <li className="mb-3">
-            Wrap your routes in<span className="px-1 font-medium">app.js</span>
-            by the
+            Wrap your<span className="px-1 font-medium">/pages/_app.js</span>
+            with the
             <span className="px-1 font-medium">DashboardLayout</span>component
           </li>
         </ul>
