@@ -1,0 +1,53 @@
+{
+  "name": "dashboard-v9-nextjs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Enoch Ndika"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvia-kit/dashboard-v9-nextjs.git"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "components",
+    "dashboard",
+    "admin",
+    "tailwindcss",
+    "next",
+    "Next.js",
+    "layout"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@reach/portal": "^0.15.3",
+    "next": "^11.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.28.0",
+    "eslint-config-next": "^11.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "postcss": "^8.3.2",
+    "prettier": "^2.3.1",
+    "tailwindcss": "^2.2.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint '*/**/*.{js,jsx}' --fix",
+      "prettier '*/**/*.{js,jsx}' --write"
+    ]
+  }
+}
