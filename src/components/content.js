@@ -111,7 +111,7 @@ const creators = [
   {
     name: 'Dave Chapelle',
     src: '/images/person/12.jpg',
-    title: 'Stand-up comedian',
+    title: 'Stand-up Comedian',
   },
   {
     name: 'Jonathan Ilunga',

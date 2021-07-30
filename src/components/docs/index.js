@@ -174,8 +174,8 @@ export default function Docs() {
           <div className="flex flex-wrap md:flex-nowrap pl-6 mt-10">
             <JsIcon /> <span className="px-2 font-medium">modal.js</span> :
             <p className="pl-1">
-              Contains the modal used to show windows menu or to show links for
-              each section icon of taskbar
+              Contains the modal used to show windows menu or to show content of
+              each section of Taskbar.
             </p>
           </div>
           <div className="flex flex-wrap md:flex-nowrap pl-6 mt-6">
@@ -190,9 +190,9 @@ export default function Docs() {
               </p>
               <p>
                 If you have nested layout or if you want to change your desktop
-                link, for example your back-office entry point is
+                link... For example if your back-office entry point is
                 <span className="px-1 font-medium">/admin/dashboard,</span> you
-                can change the value of
+                can update the value of
                 <span className="px-1 font-medium">OFFICE</span>
                 by giving it the route of your back-office entry point.
               </p>
@@ -215,8 +215,8 @@ export default function Docs() {
           <div className="flex flex-wrap md:flex-nowrap pl-6 mt-6">
             <JsIcon /> <span className="px-2 font-medium">windowsMenu.js</span>:
             <p className="pl-1">
-              Display the start menu when you click on windows icon. the start
-              menu displays each section with his links
+              Display the start menu when you click on windows icon. The start
+              menu displays each section with his content.
             </p>
           </div>
         </div>
