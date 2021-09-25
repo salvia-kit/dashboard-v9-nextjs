@@ -1,7 +1,7 @@
 export const FolderIcon = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className={`text-yellow-400 ${className || "h-5 w-5 mt-0.5"}`}
+    className={`text-yellow-400 ${className || 'h-5 w-5 mt-0.5'}`}
     viewBox="0 0 20 20"
     fill="currentColor"
   >
@@ -17,7 +17,7 @@ export const FolderIcon = ({ className }) => (
 export const FileIcon = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className={className || "h-5 w-5"}
+    className={className || 'h-5 w-5'}
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -35,7 +35,7 @@ export const JsIcon = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
-    className={className || "h-6 w-6"}
+    className={className || 'h-6 w-6'}
   >
     <path fill="#ffd600" d="M6,42V6h36v36H6z" />
     <path

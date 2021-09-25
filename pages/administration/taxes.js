@@ -1,5 +1,5 @@
 import Content from '../../src/components/content';
 
 export default function TaxesDocumentsPage() {
-  return <Content  />;
+  return <Content />;
 }

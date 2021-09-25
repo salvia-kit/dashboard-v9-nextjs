@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const Context = React.createContext({});
@@ -15,6 +15,11 @@ export default function DashboardProvider({ children }) {
     [],
   );
 
+  // Set html tag style overflow to hidden
+  useEffect(() => {
+    document.documentElement.style.overflow = 'hidden';
+  }, []);
+
   // close Taskbar modal when you click on "ESC" key
   React.useEffect(() => {
     const handleEscape = (event) => {
@@ -28,10 +33,8 @@ export default function DashboardProvider({ children }) {
     return () => document.removeEventListener('keyup', handleEscape);
   }, [selected]);
 
-  // Set html tag style overflow to hidden
   // close Taskbar modal when routes changes
   React.useEffect(() => {
-    document.documentElement.style.overflow = 'hidden';
     if (selected) {
       router.events.on('routeChangeStart', () => setSelected(''));
     }
