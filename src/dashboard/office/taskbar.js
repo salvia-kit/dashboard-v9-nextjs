@@ -13,9 +13,9 @@ const style = {
   taskbar: `fixed bottom-0 w-full z-40`,
   activeLink: `text-blue-600 font-semibold`,
   btn: `ml-auto focus:outline-none hover:bg-white px-2 py-0.5`,
-  sectionContent: `cursor-pointer hover:bg-blue-gray-light px-1`,
-  link: 'flex text-xs font-medium text-gray-800 mb-3 pl-1 py-2 lg:hover:bg-blue-gray-light',
-  container: `bg-blue-gray text-gray-700  flex px-2 md:px-0 py-2  max-w-full overflow-x-auto`,
+  sectionContent: `cursor-pointer hover:bg-[#eceff1] px-1`,
+  link: 'flex text-xs font-medium text-gray-800 mb-3 pl-1 py-2 lg:hover:bg-[#eceff1]',
+  container: `bg-[#cfd8dc] text-gray-700  flex px-2 md:px-0 py-2  max-w-full overflow-x-auto`,
 };
 
 export default function Taskbar() {
