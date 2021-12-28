@@ -7,8 +7,8 @@ import WindowsFolderIcon from './icons/system/folder';
 
 const style = {
   container: 'mr-auto text-xs',
-  header: 'flex bg-blue-gray py-1.5 z-40 w-full',
-  btn: `ml-auto px-2 text-lg font-light hover:bg-blue-gray-light focus:outline-none`,
+  header: 'flex bg-[#cfd8dc] py-1.5 z-40 w-full',
+  btn: `ml-auto px-2 text-lg font-light hover:bg-[#eceff1] focus:outline-none`,
 };
 
 export default function Topbar() {

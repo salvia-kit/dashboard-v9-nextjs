@@ -13,8 +13,8 @@ const style = {
   section: `font-semibold mb-4 w-6/12 md:w-4/12`,
   closeBtnContainer: `pt-2 -mb-3 flex justify-end`,
   modalBodyContent: 'font-semibold pl-1 flex text-gray-700 mb-4',
-  closeBtn: `text-lg px-3 py-1 focus:outline-none hover:bg-blue-gray-light`,
-  link: `flex pl-1 text-xs lg:hover:bg-blue-gray-light py-2 mb-3 text-gray-700 `,
+  closeBtn: `text-lg px-3 py-1 focus:outline-none hover:bg-[#eceff1]`,
+  link: `flex pl-1 text-xs lg:hover:bg-[#eceff1] py-2 mb-3 text-gray-700 `,
 };
 
 export default function WindowsMenu() {

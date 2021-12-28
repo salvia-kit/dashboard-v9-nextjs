@@ -13,7 +13,7 @@ const style = {
   body: `flex-shrink flex-grow p-4`,
   header: `flex p-4 border-b border-gray-400`,
   container: `fixed top-0 overflow-hidden left-0 w-full h-full m-0 z-30`,
-  content: `relative flex flex-col max-h-96 rounded-lg bg-blue-gray shadow-2xl pointer-events-auto overflow-auto`,
+  content: `relative flex flex-col max-h-96 rounded-lg bg-[#cfd8dc] shadow-2xl pointer-events-auto overflow-auto`,
 };
 
 function Modal({ children, toggle, size = 'medium' }) {
